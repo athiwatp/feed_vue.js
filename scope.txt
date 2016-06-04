@@ -1,0 +1,63 @@
+##### scope #####
+- display all post as a feed
+- display all comment in each post
+- can create new post
+- can comment as well
+
+############### FEED DATA ################
+[
+  {
+    name: "Alejandro G. Iñárritu",
+    pic: "a.jpg",
+    date: 1464940250515,
+    message: "Best Director winner",
+    love: [
+      "jamie",
+      "vardy",
+      "Leonardo",
+      "Leonardo",
+      "Leonardo"
+    ],
+    comment: [
+      {
+        name: "Leonardo DiCaprio",
+        pic: "b.jpg",
+        date: 1464940250515,
+        message: "congratulation boy!!"
+      },
+      {
+        name: "Adam McKay",
+        pic: "c.jpg",
+        date: 1464940250515,
+        message: "good job!!"
+      }
+    ]
+  },
+  {
+    name: "Ennio Morricone",
+    pic: "d.jpg",
+    date: 1464940250515,
+    message: "Best Original Score winner",
+    love: [
+      "jamie",
+      "vardy",
+      "Leonardo",
+      "Leonardo",
+      "Leonardo"
+    ],
+    comment: [
+      {
+        name: "Alejandro G. Iñárritu",
+        pic: "b.jpg",
+        date: 1464940250515,
+        message: "excellent!!"
+      },
+      {
+        name: "jamie vardy",
+        pic: "c.jpg",
+        date: 1464940250515,
+        message: "why you so good!!"
+      }
+    ]
+  }
+]
