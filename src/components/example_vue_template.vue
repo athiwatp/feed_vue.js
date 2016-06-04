@@ -1,5 +1,6 @@
 <template>
-  <div class='example'>{{ msg }}</div> <br>
+  <br><br>
+  <div class="ui fluid container">
   <div v-for="tmp in data">
         <div class="ui card">
         <div class="content">
@@ -45,6 +46,7 @@
         </div>
       </div>
   </div>
+</div>
 </template>
 
 <script>
