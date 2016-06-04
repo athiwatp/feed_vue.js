@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Example from './components/Example_vue_template'
+import Header from './components/header'
 Vue.use(VueRouter)
 
 var App = Vue.extend({})
@@ -11,7 +11,7 @@ var router = new VueRouter()
 
 router.map({
   '/': {
-    component: Example
+    component: Header
   }
 })
 

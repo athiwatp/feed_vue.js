@@ -19,30 +19,16 @@
     </div>
   </div>
   <div class="ui segment">
-    <p></p>
+    <p><example></example></p>
   </div>
 </template>
-
 <script>
+import Example from './Example_vue_template.vue'
 export default {
+  components: { Example },
   data () {
     return {
       msg: 'example vue'
-    }
-  },
-  methods: {
-    addcomment: function (index, input) {
-      var str = {
-        name: this.msg,
-        pic: 'ab.png',
-        date: {type: Date, defualt: Date.now},
-        message: input
-      }
-      this.data[index].comment.push(str)
-      data[index].newComment = ''
-    },
-    formatdate: function (time) {
-      return moment(time).startOf('day').fromNow()
     }
   }
 }
