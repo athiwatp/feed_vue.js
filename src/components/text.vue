@@ -115,7 +115,7 @@ export default {
 </script>
 /* css */
 <style>
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
 
 body {
   font-family: 'Open Sans', sans-serif;
@@ -185,5 +185,5 @@ p {
 
 .midnight {
   color: #2c3e50;
-}
+}*/
 </style>
