@@ -1,19 +1,18 @@
 <template>
     Api test https://corsbackend.herokuapp.com
-    <div v-for="show in tmp">
+    <!-- <div v-for="show in tmp">
     {{show.name}} : {{show.tel}}
-    </div>
+    </div> -->
     <br>
     <div v-for="show in fire">
       {{show.name}}
     </div>
+    
     Username : <input type="text" v-model="username"> 
     Password : <input type="text" v-model="password">
     <button type="button" v-on:click="add(username, password)">send Firebase</button>
 </template>
 <script>
-// var ref = new Firebase('https://testresapi.firebaseio.com/UserData')
-// var usersRef = ref.child('users')
 export default {
   data () {
     return {
@@ -39,7 +38,7 @@ export default {
         password: pass
       }
       this.$http({url: 'https://testresapi.firebaseio.com/data.json', data, method: 'POST'}).then(function (response) {
-        console.log('yes')
+        console.log(response)
       })
     }
   }
