@@ -4,16 +4,13 @@
   <!-- <div class="ui segment">
     <img class="ui centered medium image" src="/static/sellsuki.jpg">
 </div> -->
-
-    <p><text></text></p> 
     <br><br>
     <p><suki></suki></p>
 </template>
 <script>
 import Suki from './suki.vue'
-import Text from './text.vue'
 export default {
-  components: { Suki, Text },
+  components: { Suki },
   data () {
     return {
       msg: 'Run Together'
